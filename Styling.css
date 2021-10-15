@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* edit */
+
+/* The header at the top */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003262;
+
+    padding: 20px 0px;
+}
+
+.navBar {
+    margin: auto;
+    margin-right: 5%;
+    text-align: center;
+    display: inline-block;
+}
+
+#navLogo {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 125px;
+    height: 50px;
+}
+
+.navName {
+    margin: auto 2%;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+#menu {
+    font-size: 15px;
+    color: white;
+
+    padding: 0 5px;
+}
+
+/* The main body */
+.main {
+    display: block;
+}
+
+
+/* The Backgrounds for the Blocks */
+.altOne {
+    background-color: #FDB515;
+    height: 50%;
+    width: 100%;
+}
+
+.altTwo {
+    background-color: #3B7EA1;
+    height: 50%;
+    width: 100%;
+}
+
+/* Initialize some basic containers for each section */
+.bodyCon {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.background {
+    margin: 5% 10%;
+    border: 2px solid #C4820E;
+    padding: 0px 5%;
+    background-color: white;
+}
+
+/* Placeholder paragraphs */
+.par {
+    margin: 10% 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 150%;
+}
