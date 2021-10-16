@@ -3,43 +3,65 @@
     padding: 0;
 }
 
-/* edit */
+/* Style the navigation menu */
+.topnav {
+overflow: hidden;
+background-color: #003262;
+position: relative;
+padding-top: 1%;
+padding-bottom: 1%;
+}
 
-/* The header at the top */
-.heading {
+/* Holds the logo, name, and drop down menu */
+.header {
     display: flex;
     justify-content: space-between;
-    background-color: #003262;
-
-    padding: 20px 0px;
 }
 
-.navBar {
-    margin: auto;
-    margin-right: 5%;
-    text-align: center;
-    display: inline-block;
-}
-
+/* The Logo */
 #navLogo {
     margin-left: 3%;
-    margin-right: 3%;
     width: 125px;
     height: 50px;
 }
 
+/* The Name */
 .navName {
-    margin: auto 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
     font-size: 20px;
     text-align: left;
     color: white;
 }
 
-#menu {
-    font-size: 15px;
-    color: white;
+/* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    }
 
-    padding: 0 5px;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #C4820E;
+    color: #003262;
+}
+
+/* Style navigation menu links */
+.topnav a {
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+text-align: center;
 }
 
 /* The main body */

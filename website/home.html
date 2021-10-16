@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="Styling.css">
+        <script src="functions.js"></script>
         <title>
             Transition to Cal
         </title>
     </head>
 
     <body>
-        <header class="heading">
-            <img src="ASUC_logo.png" id="navLogo">
-
-            <div class="navName">
-                The Office of Senator Romo
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div class="header">
+                <!-- Logo -->
+                <img src="ASUC_logo.png" id="navLogo">
+                <!-- Name -->
+                <div class="navName">
+                    The Office of Senator Romo
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
 
-            <nav class="navBar">
-                <a id="menu" href="">
-                    Home
-                </a>
-
-                <a id="menu" href="page_one.html">
-                    Help One
-                </a>
-
-                <a id="menu" href="">
-                    Help Two
-                </a>
-
-                <a id="menu" href="">
-                    Help Three
-                </a>
-
-                <a id="menu" href="">
-                    Help Four
-                </a>
-
-                <a id="menu" href="">
-                    Help Five
-                </a>
-            </nav>
-        </header>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="home.html">Home</a>
+                <a href="page_one.html">One</a>
+                <a href="#about">Two</a>
+            </div>
+        </div>
     
-
         <div class="main">
 
             <div class="altOne">
