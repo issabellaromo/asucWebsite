@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="Styling.css">
+        <link rel="stylesheet" href="pages.css">
+        <script src="https://kit.fontawesome.com/84f2bd39e1.js" crossorigin="anonymous"></script>
         <script src="functions.js"></script>
         <title>
             Transition to Cal
@@ -20,7 +20,7 @@
                     The Office of Senator Romo
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="navigationChange()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -28,57 +28,121 @@
             <!-- Navigation links (hidden by default) -->
             <div id="myLinks">
                 <a href="home.html">Home</a>
-                <a href="page_one.html">One</a>
+                <a href="communities_at_cal.html">Academic Resources</a>
                 <a href="#about">Two</a>
             </div>
         </div>
 
         <div class="main">
+            <div class="resContainer">
+                <h1 class="resHeader">
+                    Cultural Resources
+                </h1>
 
-            <div class="altOne">
-                <div class="bodyCon">
-                    <div class="background">
-                        <h1 class="parHeader">
-                            Cultural
-                        </h1>
-                        <p class="par">
-                            For Queer and Trans Resources 
-                            <a href="https://cejce.berkeley.edu/geneq/lgbtq-resources
-                            Queer Orgs on Campus ">Click Here</a><br>
-                            Women's Resources 
-                            <a href="https://cejce.berkeley.edu/geneq/resources/womens-resources 
-                            Orgs for Women ">Click Here</a><br>
-                            For Queer and Trans Resources 
-                            <a href="https://cejce.berkeley.edu/geneq/lgbtq-resources
-                            Queer Orgs on Campus ">Click Here</a><br>
-                            For Queer and Trans Resources 
-                            <a href="https://cejce.berkeley.edu/geneq/lgbtq-resources
-                            Queer Orgs on Campus ">Click Here</a><br>
-                            For Queer and Trans Resources 
-                            <a href="https://cejce.berkeley.edu/geneq/lgbtq-resources
-                            Queer Orgs on Campus ">Click Here</a><br>
-                            For Queer and Trans Resources 
-                            <a href="https://cejce.berkeley.edu/geneq/lgbtq-resources
-                            Queer Orgs on Campus ">Click Here</a><br>
+                <div class="resGroup">
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink1')">
+                            <i class="fas fa-plus-circle"></i>Resources for Queer and Trans Students
+                        </a>
+                        <div class="links" id="cultLink1">
+                            <a href="https://cejce.berkeley.edu/geneq/lgbtq-resources">Click</a>
+                            <a href="https://callink.berkeley.edu/Organizations?categories=7853">Pick</a>
+                        </div>
+                    </div>
 
-                        </p>
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink2')">
+                            <i class="fas fa-plus-circle"></i>Resources for Women
+                        </a>
+                        <div class="links" id="cultLink2">
+                            <a href="https://cejce.berkeley.edu/geneq/resources/womens-resources">Click</a>
+                        </div>
+                    </div>
+                    
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink3')">
+                            <i class="fa-solid fa-plus"></i>Resources for Men
+                        </a>
+                        <div class="links" id="cultLink3">
+                            <a href="https://cejce.berkeley.edu/geneq/resources/mens-resources">Click</a>
+                        </div>
+                    </div>
+
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink4')">
+                            <i class="fa-solid fa-plus"></i>Resources for Black Students
+                        </a>
+                        <div class="links" id="cultLink4">
+                            <a href="https://cejce.berkeley.edu/aasd/black-organizations-uc-berkeley">Click</a>
+                        </div>
+                    </div>
+
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink5')">
+                            <i class="fa-solid fa-plus"></i>Resources for AAPI Students
+                        </a>
+                        <div class="links" id="cultLink5">
+                            <a href="https://aaads.berkeley.edu/community-and-student-orgs/">Click</a>
+                        </div>
+                    </div>
+                    
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink6')">
+                            <i class="fa-solid fa-plus"></i>Resources for Latine Students
+                        </a>
+                        <div class="links" id="cultLink6">
+                            <a href="https://www.ucbclaa.org/student-organizations.html">Click</a>
+                        </div>
+                    </div>
+
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink7')">
+                            <i class="fa-solid fa-plus"></i>Resources for International Students
+                        </a>
+                        <div class="links" id="cultLink7">
+                            <a href="https://callink.berkeley.edu/Organizations?categories=5104">Click</a>
+                        </div>
+                    </div>
+
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink8')">
+                            <i class="fa-solid fa-plus"></i>UC Berkeley Multicultural Center
+                        </a>
+                        <div class="links" id="cultLink8">
+                            <a href="https://cejce.berkeley.edu/mcc">Click</a>
+                        </div>
+                    </div>
+    
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink9')">
+                            <i class="fa-solid fa-plus"></i>Organizations Based on Culture and Ethnicity
+                        </a>
+                        <div class="links" id="cultLink9">
+                            <a href="https://callink.berkeley.edu/Organizations?categories=7851">Click</a>
+                        </div>
+                    </div>
+
+                    <div class="subRes">
+                        <a href="javascript:void(0);" class="plusIcon" onclick="showLink('cultLink10')">
+                            <i class="fa-solid fa-plus"></i>Organizations for Retention
+                        </a>
+                        <div class="links" id="cultLink10">
+                            <a href="https://callink.berkeley.edu/Organizations?categories=7000">Click</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            
 
-            <div class="altTwo">
-                <div class="bodyCon">
-                    <div class="background">
-                        <h1 class="parHeader">
-                            asdfsd
-                        </h1>
-                        <p class="par">
-                            kfl;asdfs
-                        </p>
-                    </div>
-               </div>
-            </div>
+            <!-- <h1 class="parHeader">
+                Pre-Professional Resources
+            </h1>
+            <p class="par">
+                Depending on your field of interest, 
+                there are orgs on campus that hone in on skills needed for your profession or some connect you with outside opportunities for career advancement!
+                <br>
+                Countless organizations can be found
+                <a href="https://callink.berkeley.edu/Organizations?categories=5107&categories=2690&categories=5103&categories=5109&categories=5111&categories=5114" class="parLinks">Here</a>!<br><br>
+            </p> -->
         </div>
     </body>
 </html>

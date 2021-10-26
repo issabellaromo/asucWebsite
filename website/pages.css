@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation menu */
+.topnav {
+overflow: hidden;
+background-color: #003262;
+position: relative;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+/* Holds the logo, name, and drop down menu */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The Logo */
+#navLogo {
+    margin-left: 3%;
+    width: 125px;
+    height: 50px;
+}
+
+/* The Name */
+.navName {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    }
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #C4820E;
+    color: #003262;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+}
+
+
+/* Container for each Category of Resources */
+.resContainer {
+    padding: 2% 5%;
+}
+
+/* All Resources within the group */
+.resGroup {
+    padding-left: 2%;
+}
+
+/* Each individual Resource */
+.subRes {
+    margin-top: 2%;
+}
+
+.subRes a {
+    text-decoration: none;
+    display: block;
+    color: #C4820E;
+    font-size: 20px;
+}
+
+.plusIcon {
+    text-decoration: none;
+    display: block;
+}
+
+.links {
+    display: none;
+    margin-left: 2%
+}
+
+
