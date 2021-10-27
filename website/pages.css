@@ -70,6 +70,11 @@ padding-bottom: 1%;
     padding: 2% 5%;
 }
 
+/* Manages the Header for each section */
+.resHeader {
+
+}
+
 /* All Resources within the group */
 .resGroup {
     padding-left: 2%;
@@ -80,6 +85,7 @@ padding-bottom: 1%;
     margin-top: 2%;
 }
 
+/* The name for each resource */
 .subRes a {
     text-decoration: none;
     display: block;
@@ -87,14 +93,39 @@ padding-bottom: 1%;
     font-size: 20px;
 }
 
+/* Modifies how the resource name looks */
+.subRes a:hover {
+    background-color: #003262;
+}
+
+/* The sign on the side */
 .plusIcon {
     text-decoration: none;
     display: block;
 }
 
-.links {
+/* Container for the links and resource descriptions */
+.descHide {
     display: none;
-    margin-left: 2%
+    margin-left: 4%
+}
+
+/* The description that is hidden*/
+.resDescription {
+    margin-top: 2%;
+    font-size: 20px;
+    display: block;
+}
+
+/* The links that are hidden */
+.link {
+    margin-top: 1%;
+}
+
+/* MOdifies how the links look */
+.descHide a:hover{
+    background-color: #FDB515;
+    color: #3B7EA1;
 }
 
 
