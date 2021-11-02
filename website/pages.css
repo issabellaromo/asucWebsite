@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style the navigation menu */
@@ -72,12 +73,14 @@ padding-bottom: 1%;
 
 /* Manages the Header for each section */
 .resHeader {
-
+    color: gray;
+    padding-left: 5%;
+    font-size: 50px;
 }
 
 /* All Resources within the group */
 .resGroup {
-    padding-left: 2%;
+    padding-left: 10%;
 }
 
 /* Each individual Resource */
@@ -85,29 +88,43 @@ padding-bottom: 1%;
     margin-top: 2%;
 }
 
-/* The name for each resource */
-.subRes a {
+/* Holds the plus icon and title */
+.resTop {
+    display: flex;
+}
+
+/* Effects how the icon and title looks when hovered on */
+.resTop:hover {
+    background-color: #003262;
+}
+
+/* Effects  the title */
+.resTitle {
+    padding-left: 2%;
     text-decoration: none;
     display: block;
     color: #C4820E;
-    font-size: 20px;
-}
-
-/* Modifies how the resource name looks */
-.subRes a:hover {
-    background-color: #003262;
+    font-size: 25px;
 }
 
 /* The sign on the side */
 .plusIcon {
     text-decoration: none;
     display: block;
+    color: #C4820E;
+    font-size: 25px;
 }
 
 /* Container for the links and resource descriptions */
 .descHide {
     display: none;
-    margin-left: 4%
+}
+
+.descHide a {
+    text-decoration: none;
+    display: block;
+    color: #C4820E;
+    font-size: 18px;
 }
 
 /* The description that is hidden*/

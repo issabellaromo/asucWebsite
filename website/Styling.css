@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style the navigation menu */
@@ -101,7 +102,6 @@ text-align: center;
 
 .parHeader {
     margin: 5% 0px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
 
@@ -109,7 +109,6 @@ text-align: center;
 .par {
     margin-top: 5%;
     margin-bottom: 10%;
-    font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 150%;
 }

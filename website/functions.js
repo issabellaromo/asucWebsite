@@ -1,7 +1,7 @@
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function navigationChange() {
   var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
+  if (x.style.display == "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
@@ -11,7 +11,7 @@ function navigationChange() {
 
 function showLink(id) {
   var x = document.getElementById(id);
-  if (x.style.display === "block") {
+  if (x.style.display == "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
