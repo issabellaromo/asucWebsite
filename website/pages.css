@@ -77,15 +77,13 @@ padding-bottom: 1%;
     padding: 3% 5%;
     line-height: 150%;
     text-align: center;
-    color:#003262
+    color: #3B7EA1;
 }
 
 /* Holds the Title */
 .pageTitle {
     font-size: 50px;
     margin: 2% 0%;
-    text-decoration: underline;
-    text-decoration-color: #FDB515;
 }
 
 /* Holds the page description */
@@ -159,8 +157,10 @@ padding-bottom: 1%;
 /* The description that is hidden*/
 .resDescription {
     margin-top: 2%;
+    padding-right: 15%;
     font-size: 20px;
     display: block;
+    line-height: 150%;
 }
 
 /* The links that are hidden */
