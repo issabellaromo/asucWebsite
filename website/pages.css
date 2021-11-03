@@ -68,6 +68,7 @@ padding-bottom: 1%;
 /* Creates space for the title of page and description */
 .pageTop {
     margin: 5% 5%;
+    margin-bottom: 0%;
     border: 30px solid #FDB515;
 }
 
