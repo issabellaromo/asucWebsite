@@ -65,6 +65,34 @@ padding-bottom: 1%;
     text-align: center;
 }
 
+/* Creates space for the title of page and description */
+.pageTop {
+    margin: 5% 5%;
+    border: 30px solid #FDB515;
+}
+
+/* Holds the title and description */
+.topContainer {
+    padding: 3% 5%;
+    line-height: 150%;
+    text-align: center;
+    color:#003262
+}
+
+/* Holds the Title */
+.pageTitle {
+    font-size: 50px;
+    margin: 2% 0%;
+    text-decoration: underline;
+    text-decoration-color: #FDB515;
+}
+
+/* Holds the page description */
+.pageDescription {
+    padding-top: 2%;
+    font-size: 20px;
+    line-height: 150%;
+}
 
 /* Container for each Category of Resources */
 .resContainer {
@@ -73,7 +101,7 @@ padding-bottom: 1%;
 
 /* Manages the Header for each section */
 .resHeader {
-    color: gray;
+    color: #3B7EA1;
     padding-left: 5%;
     font-size: 50px;
 }

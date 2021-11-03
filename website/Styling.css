@@ -84,7 +84,7 @@ text-align: center;
     width: 100%;
 }
 
-/* Initialize some basic containers for each section */
+/* Creates space for each section */
 .bodyCon {
     display: flex;
     text-align: center;
@@ -92,17 +92,47 @@ text-align: center;
     height: 100%;
 }
 
+/* Holds each section  */
 .background {
     margin: 5% 10%;
-    border: 2px solid #C4820E;
+    border: 5px solid #C4820E;
     padding: 0px 5%;
     background-color: white;
     width: 75%;
 }
 
-.parHeader {
+/* Changes header ones */
+.parHeaderOne {
     margin: 5% 0px;
     font-size: 30px;
+}
+
+/* Effects the links for each header one*/
+.parHeaderOne a {
+    color: #003262;
+    text-decoration: none;
+}
+
+.parHeaderOne a:hover {
+    color:#3B7EA1;
+    background-color: #FDB515;
+}
+
+/* Changes header twos */
+.parHeaderTwo {
+    margin: 5% 0px;
+    font-size: 30px;
+}
+
+/* Effects the links for each header two */
+.parHeaderTwo a {
+    color: #FDB515;
+    text-decoration: none;
+}
+
+.parHeaderTwo a:hover {
+    color:#FDB515;
+    background-color: #3B7EA1;
 }
 
 /* Placeholder paragraphs */
