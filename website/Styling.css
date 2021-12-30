@@ -70,75 +70,225 @@ text-align: center;
     display: block;
 }
 
-
-/* The Backgrounds for the Blocks */
-.altOne {
-    background-color: #FDB515;
-    height: 50%;
-    width: 100%;
+/* Creates the Grid for the photos */
+.photoGallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 5fr);
+    position: relative
 }
 
-.altTwo {
-    background-color: #3B7EA1;
-    height: 50%;
+/* Makes the photos fit within the grid */
+.gallery__img {
     width: 100%;
-}
-
-/* Creates space for each section */
-.bodyCon {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
     height: 100%;
+    object-fit: cover;
 }
 
-/* Holds each section  */
-.background {
-    margin: 5% 10%;
-    border: 5px solid #C4820E;
-    padding: 0px 5%;
-    background-color: white;
-    width: 75%;
+/* Chooses the space for each individual picture */
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
-/* Changes header ones */
-.parHeaderOne {
-    margin: 5% 0px;
-    font-size: 30px;
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
-/* Effects the links for each header one*/
-.parHeaderOne a {
-    color: #003262;
-    text-decoration: none;
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
-.parHeaderOne a:hover {
-    color:#3B7EA1;
-    background-color: #FDB515;
+.gallery__item--4 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
-/* Changes header twos */
-.parHeaderTwo {
-    margin: 5% 0px;
-    font-size: 30px;
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
-/* Effects the links for each header two */
-.parHeaderTwo a {
+.gallery__item--6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.gallery__item--7 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.gallery__item--8 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+/* Customizes the text displayed above the pictures */
+.galleryText {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 280px;
+    font-size: 80px;
     color: #FDB515;
-    text-decoration: none;
+    -webkit-text-stroke: 1px #003262;
 }
 
-.parHeaderTwo a:hover {
-    color:#FDB515;
-    background-color: #3B7EA1;
+/* Centers the grid for the resources */
+.resourcesContainer {
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Placeholder paragraphs */
-.par {
+/* Creates the grid for resources */
+.resourcesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+/* Deals with the blue background resources */
+.type1 {
+    background: #003262;
+    height: 400px;
+    width: 100%;
+}
+
+.title1 {
     margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 17px;
-    line-height: 150%;
+    font-size: 30px;
+}
+
+.title1 a {
+    text-decoration: none;
+    color:#FDB515;
+}
+
+.title1 a:hover {
+    background-color: #FDB515;
+    color:#003262;
+}
+
+.description1 {
+    height: 250px;
+    margin: 5%;
+    padding: 5%;
+    background: white;
+}
+
+/* Deals with the yellow background resources */
+.type2 {
+    background: #FDB515;
+    height: 400px;
+    width: 100%;
+}
+
+.title2 {
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.title2 a {
+    text-decoration: none;
+    color:#003262;
+}
+
+.title2 a:hover {
+    background-color: #003262;
+    color:#FDB515;
+}
+
+.description2 {
+    height: 250px;
+    margin: 5%;
+    padding: 5%;
+    background: white;
+}
+
+/* Chooses the space for each individual resource */
+.resource1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.resource2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.resource3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.resource4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.resource5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.resource6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.resource7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.resource8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.resource9 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
