@@ -70,6 +70,7 @@ padding-bottom: 1%;
     margin: 5% 5%;
     margin-bottom: 0%;
     border: 30px solid #FDB515;
+    /* border-radius: 0%; */
 }
 
 /* Holds the title and description */
@@ -96,6 +97,7 @@ padding-bottom: 1%;
 /* Container for each Category of Resources */
 .resContainer {
     padding: 2% 5%;
+    margin-bottom: 15%;
 }
 
 /* Manages the Header for each section */

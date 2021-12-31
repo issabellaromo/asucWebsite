@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/pages.css">
+        <script src="https://kit.fontawesome.com/84f2bd39e1.js" crossorigin="anonymous"></script>
+        <script src="../functions.js"></script>
+        <title>
+            Transition to Cal
+        </title>
+    </head>
+
+    <body>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div class="header">
+                <!-- Logo -->
+                <img src="../Images/ASUC_logo.png" id="navLogo">
+                <!-- Name -->
+                <div class="navName">
+                    The Office of Senator Romo
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="navigationChange()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="home.html">Home</a>
+                <a href="financial_aid.html">Financial Aid Resources</a>
+                <a href="technology.html">Technology Resources</a>
+                <a href="tutoring.html">Tutoring Resources</a>
+                <a href="eop.html">EOP Resources</a>
+                <a href="dsp.html">DSP Resources</a>
+                <a href="mental_health.html">Mental Health Resources</a>
+                <a href="communities_at_cal.html">Communities at Cal Resources</a>
+                <a href="housing.html">Housing Resources</a>
+                <a href="svsh.html">SVSH Resources</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="pageTop">
+                <div class="topContainer">
+                    <h1 class="pageTitle">
+                        Housing
+                    </h1>
+                    <div class="pageDescription">
+                        If you are a UC Berkeley student looking into living off campus and are in search of housing options, there are several resources that the school provides. 
+                        The Berkeley Rent Stabilization Board page aids Cal students to understand their rights as tenants and their responsibilities under certain laws in the City of Berkeley and Alameda County. 
+                        It also provides students with the knowledge of understanding the laws of being a landlord or tenant. 
+                        There are a few resources that can help students navigate their options of housing. 
+                        The Berkeley Graduate Division provides tips for finding housing applying to all topics relating to long and short term housing, finding roommates, neighborhoods...etc. 
+                        The Berkeley Student Cooperative provides information on their Co-Op housing, where priority is given to EOP, DSP, Undocumented and Transfer students. 
+                        Cal Rentals additionally provides information on rentals, summer sublets, roommates and buying and selling items. 
+                        Additionally, Cal Rentals provides information on off-campus housing, student support services and housing assistance for students with disabilities.   
+                    </div>
+                </div>
+            </div>
+
+            <div class="resContainer">
+                <h1 class="resHeader">
+                    Housing Resources
+                </h1>
+
+                <div class="resGroup">
+                    <div class="subRes">
+                        <div class="resTop">
+                            <a href="javascript:void(0);" class="plusIcon" onclick="showLink('housing1')">
+                                <i class="fas fa-plus-circle"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="resTitle" onclick="showLink('housing1')">
+                                Berkeley Rent Stabilization Board
+                            </a>
+                        </div>
+
+                        <div class="descHide" id="housing1">
+                            <div class="resDescription">
+                                The Rent Stabilization Board helps Cal students understand their rights as tenants and their responsibilities under certain laws in the City of Berkeley and Alameda County. 
+                                <br>
+                                <br>
+                                Phone: 510-981-7368
+                                <br>
+                                Location: 2125 Milvia Street, Berkeley, CA 94704
+                            </div>
+                            <a href="https://www.cityofberkeley.info/Rent_Stabilization_Board/Department_Master_and_Collections/TEMP_-_About_Us_and_Contact_Us/Rent_Board_-_Contact_Us.aspx" class="link">Click Here to go to the website</a>
+                            <a href="mailto:rent@cityofberkeley.info" class="link">Click Here to Contact</a>                        </div>
+                    </div>
+                </div>
+
+                <div class="resGroup">
+                    <div class="subRes">
+                        <div class="resTop">
+                            <a href="javascript:void(0);" class="plusIcon" onclick="showLink('housing2')">
+                                <i class="fas fa-plus-circle"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="resTitle" onclick="showLink('housing2')">
+                                Landlord Rights and Responsibilities
+                            </a>
+                        </div>
+
+                        <div class="descHide" id="housing2">
+                            <div class="resDescription">
+                                Q and A page that helps students understand the laws around being a landlord or tenant.
+                            </div>
+                            <a href="https://www.cityofberkeley.info/Rent_Stabilization_Board/Home/FAQs_Landlord_Rights_and_Responsibilities.aspx" class="link">Click Here to go to the website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resGroup">
+                    <div class="subRes">
+                        <div class="resTop">
+                            <a href="javascript:void(0);" class="plusIcon" onclick="showLink('housing3')">
+                                <i class="fas fa-plus-circle"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="resTitle" onclick="showLink('housing3')">
+                                Berkeley Tenants Union
+                            </a>
+                        </div>
+
+                        <div class="descHide" id="housing3">
+                            <div class="resDescription">
+                                Location: 2022 Blake Street, Berkeley, CA 94704
+                            </div>
+                            <a href="PolicyCommittee@cityofberkeley.info" class="link">Click Here to Contact</a>                        </div>
+                    </div>
+                </div>
+
+                <div class="resGroup">
+                    <div class="subRes">
+                        <div class="resTop">
+                            <a href="javascript:void(0);" class="plusIcon" onclick="showLink('housing4')">
+                                <i class="fas fa-plus-circle"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="resTitle" onclick="showLink('housing4')">
+                                Navigating Housing at Cal
+                            </a>
+                        </div>
+
+                        <div class="descHide" id="housing4">
+                            <a href="https://och.berkeley.edu/" class="link">Cal Rentals (private market apartments that serve students)</a>
+                            <a href="https://grad.berkeley.edu/news/headlines/tips-for-finding-housing-in-berkeley/" class="link">Tips for finding housing in Berkeley</a>
+                            <a href="https://bsc.coop/" class="link">Berkeley Student Co-op</a>
+                        </div>
+                </div>
+            </div>        
+        </div>
+    </body>
+</html>
