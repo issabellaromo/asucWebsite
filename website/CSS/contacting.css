@@ -81,6 +81,7 @@
 #senatorPicture {
     margin-top: 10%;
     border-radius: 100%;
+    border: #FDB515 solid 10px;
     height: 500px;
     width: 500px;
 }
@@ -103,4 +104,37 @@
     margin: 2%;
 }
 
+.contactContainer {
+    height: 300px;
+    width: 100%;
+    margin: 5% auto;
+}
+
+.contactMessage {
+    border: #FDB515 solid 10px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.contactPar {
+    text-align: center;
+    margin: 5% auto;
+    font-size: 30px;
+}
+
+.linkContainer {
+    text-align: center;
+    margin: 5% auto;
+    font-size: 30px;
+}
+
+.linkContainer a:hover {
+    background-color: #FDB515;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
 
