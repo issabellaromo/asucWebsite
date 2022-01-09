@@ -152,6 +152,7 @@ text-align: center;
     text-align: center;
     width: 100%;
     top: 37%;
+    background-color: #003262;
 }
 
 .galleryText{
@@ -161,7 +162,7 @@ text-align: center;
     font-size: 80px;
     color: #FDB515;
     -webkit-text-stroke: 1px #C4820E;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Playfair';
 }
 
 /* Centers the grid for the resources */
@@ -212,6 +213,7 @@ text-align: center;
     font-family: "freight-micro-pro",Georgia,serif;
     font-size: 22px;
     border-radius: 5%;
+    position: relative;
 }
 
 /* Deals with the yellow background resources */
@@ -245,6 +247,18 @@ text-align: center;
     font-family: "freight-micro-pro",Georgia,serif;
     font-size: 22px;
     border-radius: 5%;
+    position: relative;
+}
+
+.descriptionCenter {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    left: 10%;
+    right: 10%;
+    margin-left: right;
+    margin-right: left;
 }
 
 /* Chooses the space for each individual resource */
