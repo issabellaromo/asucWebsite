@@ -134,7 +134,7 @@
 }
 
 #link {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: #003262;
 }
 
